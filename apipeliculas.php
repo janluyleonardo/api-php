@@ -16,9 +16,9 @@ class ApiPeliculas{
             while ($row = $res->fetch(PDO::FETCH_ASSOC)){
     
                 $item=array(
-                    "id" => $row['id'],
-                    "nombre" => $row['nombre'],
-                    "imagen" => $row['imagen'],
+                    "id" => $row['Id'],
+                    "nombre" => $row['Nombre'],
+                    "imagen" => $row['Imagen'],
                 );
                 array_push($peliculas["items"], $item);
             }
