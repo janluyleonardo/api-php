@@ -16,6 +16,6 @@ $otroObjeto = [
 	"IpIngresoLaboral" => $IpIngresoLaboral,
 	"SedeIngresoLaboral" => $SedeIngresoLaboral,
 ];
-echo json_encode($otroObjeto) . "<br>";
+echo "\n".json_encode($otroObjeto) . "\n";
 
 ?>
