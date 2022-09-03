@@ -12,10 +12,10 @@ $otroObjeto = [
 	"CorreoIngresoLaboral" => $CorreoIngresoLaboral,
 	"ModalidadIngresoLaboral" =>$ModalidadIngresoLaboral ,
 	"FechaIngresoLaboral" => $FechaIngresoLaboral,
-	"edad" => $HoraIngresoLaboral,
+	"HoraIngresoLaboral" => $HoraIngresoLaboral,
 	"IpIngresoLaboral" => $IpIngresoLaboral,
 	"SedeIngresoLaboral" => $SedeIngresoLaboral,
 ];
-echo json_encode($otroObjeto) . "\n";
+echo json_encode($otroObjeto) . "<br>";
 
 ?>
